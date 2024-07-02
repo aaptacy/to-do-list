@@ -1,0 +1,73 @@
+.form__fieldset {
+    max-width: 600px;
+    width: 100%;
+    border: 1px solid #393b5a;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.form__legend {
+    width: 230px;
+    padding: 13px;
+    height: 40px;
+    background-color: hsla(173, 100%, 50%, 0.589);
+    border: none;
+    border-radius: 10px;
+    font-weight: 1000;
+    color: white;
+}
+
+.form__labelText {
+    max-width: 130px;
+    width: 100%;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.form__input {
+    border: 1px solid #ccc;
+    padding: 10px;
+    max-width: 600px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.form__input:invalid {
+    background-color: #fff0dd;
+}
+
+.form__button {
+    max-width: 600px;
+    width: 100%;
+    cursor: pointer;
+    height: 50px;
+    background-color: hsl(36, 100%, 52%);
+    border: none;
+    border-radius: 10px;
+    font-weight: 1000;
+    color: white;
+}
+
+
+.form__button:hover {
+    background-color: hsl(36, 100%, 48%);
+    color: white;
+}
+
+.form__button:active {
+    background-color: hsl(36, 100%, 45%);
+}
+
+.form__output {
+    padding: 1.4%;
+    resize: none;
+    height: 40px;
+    min-width: 350px;
+    font-weight: bolder;
+    text-align: center;
+    vertical-align: middle;
+    background-color: hsl(132, 82%, 83%);
+    border-color: hsl(133, 20%, 41%)e;
+    border-radius: 5px;
+}

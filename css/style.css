@@ -1,0 +1,16 @@
+html {
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: justify;
+    line-height: 1.5;
+    background-image: url("../img/background.jpg");
+    background-size: 100%;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
